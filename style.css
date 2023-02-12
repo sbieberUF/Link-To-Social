@@ -1,0 +1,116 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+body{
+	background-image:url('background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	display: grid;
+  place-items: center;
+  }
+.container{
+  width: 30em;
+	margin: 4em;
+}
+
+.head__section img{
+    display:block;
+    margin: auto;
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px pink;
+    image-orientation: center;
+}
+
+.head__section p{
+  text-align: center;
+	margin-top: 13px;
+	font-size: 1.5em;
+  color: white;
+  font-family: monospace;
+  font-style: oblique;
+  font-weight: bold;
+  text-shadow: 2px 2px purple;
+}
+
+.edit__section p{
+  text-align: center;
+	margin-top: 5px;
+	font-size: 0.95em;
+  color: white;
+  font-family: monospace;
+  font-style: oblique;
+  font-weight: bold;
+  text-shadow: 2px 2px purple;
+}
+
+.home p{
+  text-align: center;
+  width: 29.83rem;
+  margin-bottom: 30px;
+  margin-left: 1.35px;
+  color: white;
+  text-shadow: 1px 1px pink;
+  padding: 10px 20px;
+  font-size: 1.8rem;
+}
+
+.social__links ul li{
+    width: 100%;
+    margin: 1.1rem 0;
+    padding: 0.5rem 1.8rem;
+    background: rgba( 255, 255, 255, 0.1 );
+    backdrop-filter: blur( 0px );
+    border-radius: 5px;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    box-shadow: 0 0 0.8rem  rgba(255, 255, 255, .12);
+}
+.js-tilt-glare{
+    border-radius: 5px;
+}
+.social__links ul li a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+
+}
+.social__links ul li a i{
+    text-align: center;
+    line-height: 4rem;
+	  padding: 10px 20px;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+    transform: scale(1.4) translateZ(50px);
+    transition: 0.25s;
+}
+.social__links ul li a span{
+    line-height: 1.4rem;
+} 
+.home h5{
+  text-align: center;
+	margin-top: -37px;
+  margin-left: -1px;
+	font-size: 0.95em;
+  color: white;
+  font-family: monospace;
+  font-style: oblique;
+  font-weight: bold;
+  text-shadow: 1px 1px pink;
+  padding: 5px 10px;
+}

@@ -1,0 +1,116 @@
+body{
+  counter-reset:section;
+  text-align:center;
+  background-image:url('homebackground.jpg');
+  background-size: cover;
+}
+
+.container{
+  position:relative;
+  top:100px;
+}
+
+
+.container{
+  position:relative;
+  top:100px;
+}
+
+.container h1, .container span{
+  font-family: helvetica, sans-serif;
+}
+
+.container h1{
+  text-align: center;
+  margin-bottom:10px;
+	margin-top: 13px;
+	font-size: 2em;
+  color: white;
+  font-family: monospace;
+  font-style: oblique;
+  font-weight: bold;
+  text-shadow: 1px 1px pink;
+}
+
+.container h2{
+  font-family:sans-serif;
+  font-style:italic;
+  color:#d3b6ca; 
+  text-align:center;
+  font-size:1.2em;
+  opacity: 75%
+}
+
+.container form span:before {
+  counter-increment:section;
+  content:counter(section);
+  border:2px solid pink;
+  width:40px;
+  height:40px;
+  color:#fff;
+  display:inline-block;
+  border-radius:50%;
+  line-height:1.6em;
+  font-size:1.5em;
+  position:relative;
+  left:-22px;
+  top:-11px;
+  background:#d3b6ca;
+  opacity: 75%
+}
+
+form{
+  margin-top:25px;
+  display:inline-block;
+}
+
+.container span{
+    margin-bottom:22px; 
+    display:inline-block;
+}
+
+.container span:last-child{
+   margin-bottom:-11px;
+}
+
+input{
+  border:none;
+  outline:none;
+  display:inline-block;
+  height:34px;
+  vertical-align:middle;
+  position:relative;
+  bottom:14px;
+  right:9px;
+  border-radius:22px;
+  width:220px;
+  box-sizing:border-box;
+  padding:0 18px; 
+  opacity: 85%;
+}
+
+button{
+  border:none;
+  outline:none;
+  display:inline-block;
+  height:34px;
+  vertical-align:middle;
+  position:relative;
+  bottom:14px;
+  right:9px;
+  border-radius:22px;
+  width:220px;
+  box-sizing:border-box;
+  padding:0 18px; 
+  opacity: 85%;
+}
+
+button[type="submit"]{ 
+  background:rgba(197,62,126,.45);
+  color:white;
+  position:relative;
+  left:9px;
+  top:25px; 
+  width:100px;
+  cursor:pointer;
+}
